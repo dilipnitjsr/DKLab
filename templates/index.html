@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DKLab - AI, Machine Learning & Intelligent Systems Research Lab">
+    <title>DKLab | AI, ML & Intelligent Systems Research Lab</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<header class="navbar">
+    <div class="container nav-inner">
+        <a class="brand" href="#home">
+            <div class="brand-mark"><span>D</span><b>K</b></div>
+            <div>
+                <div class="brand-name">DK<span>Lab</span></div>
+                <div class="brand-tag">Research. Intelligence. Innovation.</div>
+            </div>
+        </a>
+
+        <button class="menu-toggle" aria-label="Open menu">☰</button>
+
+        <nav class="nav-links">
+            <a class="active" href="#home">Home</a>
+            <a href="#research">Research</a>
+            <a href="#projects">Projects</a>
+            <a href="#publications">Publications</a>
+            <a href="#people">People</a>
+            <a href="#students">Students</a>
+            <a href="#resources">Resources</a>
+            <a href="#news">News</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a class="contact-btn" href="#contact">✉ Get in Touch</a>
+    </div>
+</header>
+
+<main id="home">
+<section class="hero">
+    <div class="container hero-grid">
+        <div class="hero-copy">
+            <div class="eyebrow">WELCOME TO D K L A B</div>
+            <h1>AI, Machine Learning &amp;<br>
+                <span>Intelligent Systems</span><br>
+                Research Lab
+            </h1>
+            <p>
+                DKLab is a research laboratory focused on Artificial Intelligence,
+                Machine Learning, Optimization, and Intelligent Systems,
+                developing innovative computational solutions for real-world challenges.
+            </p>
+            <div class="hero-buttons">
+                <a class="btn primary" href="#research">Explore Research →</a>
+                <a class="btn outline" href="#projects">View Projects</a>
+            </div>
+            <div class="hero-tagline">Research. Intelligence. Innovation.</div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="brain">◉</div>
+            <div class="node n1">🧠<small>AI &amp; ML</small></div>
+            <div class="node n2">⚙<small>Optimization</small></div>
+            <div class="node n3">🤖<small>Generative AI</small></div>
+            <div class="node n4">🛡<small>Security &amp; Privacy</small></div>
+            <div class="node n5">⌁<small>IoT &amp; Edge</small></div>
+            <div class="node n6">🌱<small>AI for Agriculture</small></div>
+        </div>
+    </div>
+</section>
+
+<section id="research" class="section">
+    <div class="section-heading">
+        <div class="eyebrow blue">RESEARCH AREAS</div>
+        <h2>Our Focus Areas</h2>
+        <div class="heading-line"></div>
+    </div>
+
+    <div class="container cards research-grid">
+        <article class="research-card">
+            <div class="icon blue-bg">🧠</div>
+            <h3>Artificial Intelligence<br>&amp; Machine Learning</h3>
+            <p>Deep Learning, Generative AI, LLMs, RAG, Computer Vision</p>
+        </article>
+        <article class="research-card">
+            <div class="icon purple-bg">⚙</div>
+            <h3>Optimization &amp;<br>Intelligent Computing</h3>
+            <p>Metaheuristics, Feature Selection, Resource Optimization</p>
+        </article>
+        <article class="research-card">
+            <div class="icon green-bg">⌁</div>
+            <h3>Intelligent IoT<br>Systems</h3>
+            <p>Edge Intelligence, Smart Systems, IoT Security, Healthcare IoT</p>
+        </article>
+        <article class="research-card">
+            <div class="icon orange-bg">🌱</div>
+            <h3>AI for Agriculture</h3>
+            <p>Precision Farming, Crop Monitoring, Pest Detection, Drone Systems</p>
+        </article>
+        <article class="research-card">
+            <div class="icon red-bg">🛡</div>
+            <h3>Security &amp; Privacy</h3>
+            <p>Lightweight Authentication, Cloud-IoT Security, Privacy-Preserving Systems</p>
+        </article>
+        <article class="research-card">
+            <div class="icon cyan-bg">▤</div>
+            <h3>Data &amp; Intelligent Applications</h3>
+            <p>Time-Series Analysis, Data Mining, Predictive Analytics</p>
+        </article>
+    </div>
+</section>
+
+<section id="projects" class="section projects-section">
+    <div class="container">
+        <div class="section-top">
+            <div>
+                <div class="eyebrow blue">FEATURED PROJECTS</div>
+                <h2>Our Latest Research</h2>
+            </div>
+            <a class="view-link" href="#">View All Projects →</a>
+        </div>
+
+        <div class="project-grid">
+            <article class="project-card">
+                <div class="project-image agriculture">🚁</div>
+                <div class="project-body">
+                    <span class="pill green-pill">AI for Agriculture</span>
+                    <h3>KrishiDrishti</h3>
+                    <p>AI-powered drone surveillance system for crop health and pest detection.</p>
+                    <div class="tech">Python · Drone · Computer Vision</div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-image security">🔐</div>
+                <div class="project-body">
+                    <span class="pill red-pill">Security</span>
+                    <h3>Lightweight Security in IoT</h3>
+                    <p>Efficient authentication and privacy-preserving mechanisms for IoT systems.</p>
+                    <div class="tech">Python · IoT · Cryptography</div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-image genai">🧠</div>
+                <div class="project-body">
+                    <span class="pill purple-pill">GenAI</span>
+                    <h3>Intelligent Research Assistant</h3>
+                    <p>RAG-based research assistant using full-stack technologies and LLMs.</p>
+                    <div class="tech">FastAPI · React · LLM · RAG</div>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-image optimization">📈</div>
+                <div class="project-body">
+                    <span class="pill blue-pill">Optimization</span>
+                    <h3>Resource Optimization</h3>
+                    <p>Metaheuristic approaches for efficient resource allocation in intelligent systems.</p>
+                    <div class="tech">Python · ML · Optimization</div>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="about-section">
+    <div class="container about-grid">
+        <div class="about-copy">
+            <div class="eyebrow blue">ABOUT D K L A B</div>
+            <h2>Our Mission</h2>
+            <p>
+                To conduct high-quality research and develop intelligent computational
+                solutions for challenging real-world problems.
+            </p>
+            <a class="small-btn" href="#contact">Learn More →</a>
+        </div>
+
+        <div class="stats">
+            <div><strong>50+</strong><span>Publications</span></div>
+            <div><strong>4</strong><span>Patents</span></div>
+            <div><strong>4</strong><span>PhD Graduates</span></div>
+            <div><strong>10+</strong><span>Ongoing PhD Scholars</span></div>
+            <div><strong>200+</strong><span>Students Supervised</span></div>
+        </div>
+
+        <div class="institute-card">
+            <div class="campus-art">NIT<br>JAMSHEDPUR</div>
+            <div class="campus-caption">NIT Jamshedpur →</div>
+        </div>
+    </div>
+</section>
+
+<section id="publications" class="simple-section">
+    <div class="container two-col">
+        <div>
+            <div class="eyebrow blue">PUBLICATIONS</div>
+            <h2>Research &amp; Scholarly Work</h2>
+            <p>Explore journal articles, conference papers, book chapters, patents, datasets and software developed through DKLab.</p>
+        </div>
+        <div class="feature-list">
+            <div>📄 Journal Articles</div>
+            <div>🎓 Conference Papers</div>
+            <div>💡 Patents</div>
+            <div>💻 Research Software &amp; Datasets</div>
+        </div>
+    </div>
+</section>
+
+<section id="people" class="simple-section light">
+    <div class="container">
+        <div class="eyebrow blue">PEOPLE</div>
+        <h2>Researchers &amp; Scholars</h2>
+        <p>DKLab brings together faculty, PhD scholars, postgraduate researchers and student project teams.</p>
+        <div class="person-card">
+            <div class="avatar">DK</div>
+            <div>
+                <h3>Dr. Dilip Kumar</h3>
+                <p>Assistant Professor · Department of Computer Science &amp; Engineering · NIT Jamshedpur</p>
+                <p>Research: Artificial Intelligence, Machine Learning, Optimization &amp; Intelligent Systems</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="students" class="simple-section">
+    <div class="container two-col">
+        <div>
+            <div class="eyebrow blue">STUDENTS</div>
+            <h2>Learn, Research &amp; Build</h2>
+            <p>DKLab supports PhD, M.Tech and B.Tech researchers through guided projects, experimentation, publications and innovation.</p>
+        </div>
+        <div class="feature-list">
+            <div>🔬 PhD Research</div>
+            <div>🎓 M.Tech Projects</div>
+            <div>💻 B.Tech Projects</div>
+            <div>🌐 Research Internships</div>
+        </div>
+    </div>
+</section>
+
+<section id="resources" class="simple-section light">
+    <div class="container">
+        <div class="eyebrow blue">RESOURCES</div>
+        <h2>Research &amp; Learning Resources</h2>
+        <div class="resource-grid">
+            <div>📚 Lecture Notes</div>
+            <div>🧪 Datasets</div>
+            <div>💻 Source Code</div>
+            <div>🤖 AI/ML Tutorials</div>
+        </div>
+    </div>
+</section>
+
+<section id="news" class="simple-section">
+    <div class="container">
+        <div class="eyebrow blue">NEWS</div>
+        <h2>Latest from DKLab</h2>
+        <div class="news-grid">
+            <article><span>Research</span><h3>New AI research project initiated</h3><p>Updates on current research, projects and collaborations.</p></article>
+            <article><span>Students</span><h3>Student research and achievements</h3><p>PhD, M.Tech and B.Tech research highlights.</p></article>
+            <article><span>Innovation</span><h3>Patents and technology development</h3><p>New intellectual property and prototypes from DKLab.</p></article>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact-section">
+    <div class="container contact-inner">
+        <div>
+            <div class="eyebrow">COLLABORATE WITH D K L A B</div>
+            <h2>Let's build intelligent solutions together.</h2>
+            <p>For academic collaboration, industry research, student projects and research enquiries.</p>
+        </div>
+        <a class="btn white" href="mailto:info@dklab.in">Contact DKLab →</a>
+    </div>
+</section>
+</main>
+
+<footer>
+    <div class="container footer-grid">
+        <div>
+            <div class="footer-brand">DK<span>Lab</span></div>
+            <p>AI, Machine Learning &amp; Intelligent Systems Research Lab</p>
+        </div>
+        <div>
+            <strong>Research</strong>
+            <a href="#research">Research Areas</a>
+            <a href="#projects">Projects</a>
+            <a href="#publications">Publications</a>
+        </div>
+        <div>
+            <strong>People</strong>
+            <a href="#people">Researchers</a>
+            <a href="#students">Students</a>
+            <a href="#resources">Resources</a>
+        </div>
+        <div>
+            <strong>Contact</strong>
+            <a href="mailto:dilip@dklab.in">dilip@dklab.in</a>
+            <a href="mailto:info@dklab.in">info@dklab.in</a>
+            <a href="mailto:research@dklab.in">research@dklab.in</a>
+        </div>
+    </div>
+    <div class="container copyright">© 2026 DKLab. All rights reserved.</div>
+</footer>
+
+<script>
+const toggle = document.querySelector(".menu-toggle");
+const nav = document.querySelector(".nav-links");
+toggle.addEventListener("click", () => nav.classList.toggle("open"));
+document.querySelectorAll(".nav-links a").forEach(a => {
+    a.addEventListener("click", () => nav.classList.remove("open"));
+});
+</script>
+</body>
+</html>
